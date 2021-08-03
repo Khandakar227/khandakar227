@@ -7,7 +7,10 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "preact": "^10.5.13"
+    "axios": "^0.21.1",
+    "preact": "^10.5.13",
+    "recaptcha-v3": "^1.10.0",
+    "sal.js": "^0.8.5"
   },
   "devDependencies": {
     "@prefresh/snowpack": "^3.0.0",
