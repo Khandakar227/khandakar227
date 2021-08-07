@@ -11,6 +11,17 @@
         }
     },
     {
+        "src": "https://khandakar227.github.io/json-data/cdn/cakeshop.webp",
+        "info": {
+            "title": "Cake Shop",
+            "desc": "Confectionary & Bakery shop website built using astro framework."
+        },
+        "action": {
+            "src": "https://cakeshop.pages.dev/",
+            "type": "link"
+        }
+    },
+    {
         "src": "https://khandakar227.github.io/assets/img/site-ccitc.png",
         "info": {
             "title": "CCITC",
