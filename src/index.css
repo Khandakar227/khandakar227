@@ -1,0 +1,75 @@
+:root {
+  --purplish:#5b62d9;
+  --dark-purplish:#33377e;
+  --dark: black;
+  --glass_button_red:rgba(255,0,0, 0.379);
+  --glass_button_purple:rgba(150, 100, 219, 0.379);
+  --skyBlue: rgba(0, 255, 199, 55%);
+  --home_animation_duration: .6s;
+}
+html {scroll-behavior: smooth;}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Open sans', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {width:100%;}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  background: #ff00008f;
+  border: 1px solid white;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 1pc;
+}
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fb040485;
+  z-index: -1;
+  width: 0%;
+  border-radius: 5px;
+  height: 100%;
+  transition: all .5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+.button:hover::after {
+  width: 100%;
+}
+.glass-container{
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255,255,255,0.4) solid;
+  border-bottom: 2px rgba(40,40,40,0.35) solid;
+  border-right: 2px rgba(40,40,40,0.35) solid;
+}
+.transparent_button {
+  cursor: pointer;
+  position: relative;background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+.Link_normal {
+  text-decoration: none;
+  color: inherit;
+}

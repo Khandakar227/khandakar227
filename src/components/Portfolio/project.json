@@ -1,0 +1,101 @@
+[
+    {
+        "src": "https://khandakar227.github.io/assets/img/self_potrait.jpg",
+        "info": {
+            "title": "Vector Art",
+            "desc": "Self Potrait."
+        },
+        "action": {
+            "src": "https://khandakar227.github.io/assets/img/fullImg/self_potrait.jpg",
+            "type": "image"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/json-data/cdn/cakeshop.webp",
+        "info": {
+            "title": "Cake Shop",
+            "desc": "Confectionary & Bakery shop website built using astro framework."
+        },
+        "action": {
+            "src": "https://cakeshop.pages.dev/",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/assets/img/site-ccitc.png",
+        "info": {
+            "title": "CCITC",
+            "desc": "Checkout the official site of CCITC"
+        },
+        "action": {
+            "src": "https://www.ccitc.team",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/assets/img/peri0dictable.png",
+        "info": {
+            "title": "Periodic Table",
+            "desc": "Simple periodic table created using React Components"
+        },
+        "action": {
+            "src": "https://peri0dictable.netlify.app",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/assets/img/animeflix.png",
+        "info": {
+            "title": "Animeflix",
+            "desc": "Video streaming site based on netflix's UI."
+        },
+        "action": {
+            "src": "https://ani-me-flix.netlify.app",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/json-data/cdn/future_city.png",
+        "info": {
+            "title": "City (2030)",
+            "desc": "Futuristic city illustration."
+        },
+        "action": {
+            "src": "https://khandakar227.github.io/json-data/cdn/future_city.svg",
+            "type": "image"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/assets/img/quran-web.png",
+        "info": {
+            "title": "Quran Web",
+            "desc": "A web app for reading the Quran. Only bangla and english translations were added."
+        },
+        "action": {
+            "src": "https://quran-web.netlify.app",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/assets/img/www.blog.ccitc.team.png",
+        "info": {
+            "title": "Social blogging web app of CCITC with Vue JS",
+            "desc": "Read awesome posts, sign in with google write your own posts/ blogs"
+        },
+        "action": {
+            "src": "https://www.blog.ccitc.team",
+            "type": "link"
+        }
+    },
+    {
+        "src": "https://khandakar227.github.io/json-data/cdn/tomorrow_land.svg",
+        "info": {
+            "title": "Tomorrow Land",
+            "desc": "Vector Art of Disney's Tomorrow land using Inkscape"
+        },
+        "action": {
+            "src": "https://khandakar227.github.io/json-data/cdn/tomorrow_land.svg",
+            "type": "image"
+        }
+    }
+]
