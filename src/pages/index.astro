@@ -1,0 +1,138 @@
+---
+// Component Imports
+import Navbar from '../components/Navbar.svelte'
+import NameAnime from "../components/NameAnime.svelte";
+import Button from "../components/Button.svelte";
+import ProgressBar from '../components/ProgressBar.svelte';
+import Services from '../components/Services.svelte';
+import Platforms from '../components/Platforms.astro';
+import Projects from '/assets/project.json';
+import Portfolio from '../components/Portfolio.astro';
+import Contact from '../components/Contact.svelte';
+import Wave from '../components/Wave.svelte';
+import SocialLinks from '../components/SocialLinks.astro';
+
+let title = 'Khandakar Shakib';
+let name = "Khandakar Shakib";
+
+const projectData = Projects;
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="https://unpkg.com/sal.js@0.8.2/dist/sal.css ">
+    <script src="https://unpkg.com/sal.js@0.8.2/dist/sal.js" defer></script>
+    <script src="/js/particles.min.js" defer></script>
+    <script src="/js/index.js" defer></script>
+    <style>
+        .particles_background {
+            pointer-events: none;
+        }
+        .canvas_container {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        @media (min-width:768px) {
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+        <Navbar/>
+        </header>
+        <section id="home">
+        <!-- <div class="canvas_container">
+             <canvas class="particles_background"></canvas>
+        </div> -->
+            <div class="texts">
+                <svg class="intro go" viewbox="0 0 220 70">
+                    <text text-anchor="start" x="0" y="40" class="text text-stroke" clip-path="url(#text1)">Hello world</text>
+                    <text text-anchor="start" x="0" y="40" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Hello world</text>
+                    <defs>
+                        <clipPath id="text1">
+                        <text text-anchor="start" x="0" y="40" class="text">Hello world</text>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <h2 data-sal="slide-down" data-sal-delay="400">My name is <NameAnime {name}/></h2>
+                <Button style="margin-top: 3.5rem" text="FIND OUT MORE" href="#about" />
+            </div>
+
+            <div class="ARTWORK_WRAPPER">
+                <img src="/assets/artwork.webp" alt="artwork"/>
+            </div>
+        </section>
+            <svg id="_about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path stroke="none" fill="#00251b" fill-opacity="1" d="M0,128L60,106.7C120,85,240,43,360,42.7C480,43,600,85,720,128C840,171,960,213,1080,218.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        <section id="about">
+        <container>
+        <div>
+            <div style="display: grid;text-align: center;">
+               <img data-sal="slide-right" data-sal-delay="300" style="max-width: 440px;margin: 0 auto;" src="/assets/intro.svg" alt="illustration"/>
+            </div>
+        </div>
+            <div class="about_text" data-sal="slide-left" >
+            <p>
+                I am an impassioned fullstack web developer with a decent
+                amount of experience in vector arts from Bangladesh studying in Chittagong college.
+            </p>
+            <Button text="Download CV" href="#" style="font-size: 1rem;"/>
+            <Button text="Check out" href="/resume" style="font-size: 1rem;"/>
+            </div>
+        </container>
+        </section>
+        <section id="service">
+            <h2 class="lodash">FIELD OF EXPERTISE</h2>
+            <Services className="service_icons"/>
+            <h2>Skill sets</h2>
+            <div class="grid">
+            <div class="progress_bars">
+                <ProgressBar client:visible progress="95" text="HTML & CSS" color="#e91e63" />
+                <ProgressBar client:visible progress="90" text="Javascript"/>
+                <ProgressBar client:visible progress="70" text="C" color="#9C89B8"/>
+                <ProgressBar client:visible progress="85" text="Python" color="#FAF8D4"/>
+            </div>
+            <Platforms />
+            </div>
+        </section>
+        <section id="portfolio">
+            <Wave />
+            <h4 class="section_name">Portfolio</h4>
+            <h2 class="lodash">My Projects</h2>
+            <Portfolio data={projectData} />
+        </section>
+        <section id="contact">
+            <h2 class="lodash">CONTACT</h2>
+            <div class="contact_grid">
+                <Contact client:load />
+                <SocialLinks />
+            </div>
+        </section>
+    </main>
+</body>
+</html>

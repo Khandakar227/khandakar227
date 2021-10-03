@@ -1,0 +1,144 @@
+---
+import Resume from '/assets/resume.json';
+import Table from '../components/Table.astro';
+import SimpleProgressBar from '../components/SimpleProgressBar.astro';
+
+let title = 'Resume of Khandakar Shakib';
+const data = Resume;
+---
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/resume.css">
+    <link rel="stylesheet" href="https://unpkg.com/sal.js@0.8.2/dist/sal.css ">
+    <script src="https://unpkg.com/sal.js@0.8.2/dist/sal.js" defer></script>
+    <style>
+    .resume_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(1vw + 5px);
+    }
+    .resume_heading img {
+        width: 100%;
+        max-width: 200px;
+        border: 5px double;
+        border-radius: 50%;
+    }
+    h1 {
+        font-size: clamp(1.7rem, 4vw, 2.5rem);
+        color: #b20000;
+    }
+    article {
+        padding: 5px;
+        margin: 10px auto;
+        border-radius: 5px;
+        max-width: 1200px;
+        background-color: white;
+        color: rgb(49 49 49);
+    }
+    @media (max-width: 600px) {
+        .resume_heading {
+            flex-wrap: wrap;
+        }
+    }
+    </style>
+</head>
+
+<body>
+<article>
+<div class="resume_heading">
+<img src={data.image} alt={data.Name}/>
+<h1>{data.Name}</h1>
+</div>
+<div class="grid_resume">
+<div class="tables">
+<Table title="PERSONAL"
+    data={
+    {
+        "Name": data.Name,
+        "Date of Birth": data.dob,
+        "Relationship": data.Relationship,
+        "Nationality": data.Nationality,
+        "Languages": data.Languages,
+    }
+    }
+    />
+<Table title="CONTACT"
+    data = {
+        {
+            "Phone No." : data.Phone_No,
+            "Address" : data.Address,
+            "Email" : data.Email,
+
+        }
+    }
+/>
+<Table title="EDUCATION"
+    data = {
+        {
+            "College." : data.College,
+            "Secondary School Certificate" : data.SSC,
+        }
+    }
+/>
+</div>
+
+<div class="descriptive">
+    <div class="verti_line">
+    <h2 class="line">ABOUT</h2>
+    <p>
+    {data.about}
+    </p>
+    </div>
+
+    <div class="verti_line">
+        <h2 class="line">TECHNICAL SKILLS</h2>
+        <div class="skills_tab">
+            {
+                data.technical_skills.map(skill => (
+                <div class="skill_tab">
+                    <span> {skill.field} </span>
+                    <SimpleProgressBar progress={skill.progress}/>
+                </div>
+                ))
+            }
+        </div>
+    </div>
+
+    <div class="verti_line">
+        <h2 class="line"> ECA </h2>
+        <div style="padding: 1rem 0">
+            <p><b>Co founder & Administrator of Robotics & IoT</b><br/>
+                at Chittagong College Information Technology Club</p>
+                <ul>
+                    <li> Directed classes for the members</li>
+                    <li> Developed the official website for the club</li>
+                    <li> Supervised workshops on Arduino and Electronics and much more</li>
+                </ul>
+                <p><b>CHAMPION</b><br/>
+                at Divisional Physics Olympiad 2019</p>
+
+                <p><b>RUNNERS UP</b><br/>
+                at Regional Biology Olympiad 2017</p>
+
+                <p><b>2ND RUNNERS UP</b><br/>
+                at Divisional Math Olympiad 2016</p>
+        </div>
+    </div>
+</div>
+</div>
+
+</article>
+</body>
+</html>
