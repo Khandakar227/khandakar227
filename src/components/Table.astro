@@ -1,0 +1,28 @@
+---
+const {data, title} = Astro.props;
+
+const Data = data;
+
+const keys = Object.keys(data);
+const values = Object.values(data);
+
+---
+
+<div class="table">
+    <h2 class="line">{title}</h2>
+    <table>
+        <tbody>
+        {
+            keys[0] ?
+            keys.map((key, i) => (
+            <tr>
+                <td class="key">{key}</td>
+                <td class="value">{values[i]}</td>
+            </tr>
+            ))
+            :
+            "LOADING"
+        }
+        </tbody>
+    </table>
+</div>

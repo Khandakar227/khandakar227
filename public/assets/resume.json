@@ -1,0 +1,19 @@
+{
+  "Name": "Khandakar Shakib Al Hasan",
+  "image": "https://raw.githubusercontent.com/Khandakar227/json-data/main/cdn/profile.webp",
+  "dob": "26 December, 2002",
+  "Relationship": "Single",
+  "Nationality": "Bangladeshi",
+  "Languages": "Bangla, English",
+  "Phone_No": "01837782939",
+  "Address": "Chittagong, Bangladesh",
+  "Email": "kshasan328p@gmail.com",
+  "College": "Studying Science at Chittagong College",
+  "SSC": "Chittagong Collegiate School",
+  "about": "Determined and enthusiastic web developer with a passion for creative solutions. Proficient in Javascript, HTML, CSS & C. Dedicated to learning additional technologies and coding languages (currently enrolled in a Node js course). Created a non-profit website for an IT club at Chittagong college. Looking for an entry-level position at a great company to be a hard-working asset to any team, to learn, grow and develop long-term.",
+  "technical_skills": [
+      {"field": "Front end development", "progress": "80%"},
+      {"field": "Back end development", "progress": "60%"},
+      {"field": "UI/UX designer", "progress": "70%"}
+  ]
+}
