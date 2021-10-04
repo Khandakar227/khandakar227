@@ -1,18 +1,29 @@
 <script>
   export let type = "neon";
-  export let text = "";
   export let href = "";
   export let style = "";
+  export let download = '';
+  export let alt = '';
 </script>
 
 {#if type === "neon"}
-  <a class="neon_button" {href} {style}>
-    <span />
-    <span />
-    <span />
-    <span />
-    <b>{text}</b>
-  </a>
+  {#if download}
+    <a class="neon_button" {href} {style} {download} {alt}>
+      <span />
+      <span />
+      <span />
+      <span />
+      <b><slot></slot></b>
+    </a>
+    {:else}
+    <a class="neon_button" {href} {style}>
+      <span />
+      <span />
+      <span />
+      <span />
+      <b><slot></slot></b>
+    </a>
+  {/if}
 {/if}
 
 <style>
@@ -37,6 +48,7 @@
     color: #050801;
     box-shadow: 0 0 5px var(--neon-button), 0 0 25px var(--neon-button),
       0 0 50px var(--neon-button), 0 0 200px var(--neon-button);
+      fill: #050801;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
   .neon_button:nth-child(1) {

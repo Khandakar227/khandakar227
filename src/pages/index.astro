@@ -24,7 +24,8 @@ const projectData = Projects;
     <meta name="viewport" content="width=device-width">
     <title>{title}</title>
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    <meta name="description" content="Personal portfolio of Khandakar Shakib.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
@@ -81,7 +82,7 @@ const projectData = Projects;
                     </defs>
                 </svg>
                 <h2 data-sal="slide-down" data-sal-delay="400">My name is <NameAnime {name}/></h2>
-                <Button style="margin-top: 3.5rem" text="FIND OUT MORE" href="#about" />
+                <Button style="margin-top: 3.5rem" href="#about" >FIND OUT MORE</Button>
             </div>
 
             <div class="ARTWORK_WRAPPER">
@@ -101,8 +102,11 @@ const projectData = Projects;
                 I am an impassioned fullstack web developer with a decent
                 amount of experience in vector arts from Bangladesh studying in Chittagong college.
             </p>
-            <Button text="Download CV" href="#" style="font-size: 1rem;"/>
-            <Button text="Check out" href="/resume" style="font-size: 1rem;"/>
+            <Button href="/assets/khandakar_resume.pdf" style="font-size: 1rem;" download={true} alt="Resume of Khandakar Shakib"> 
+                <svg class="icon" viewBox="0 0 32 32"><path d="M16 18l8-8h-6v-8h-4v8h-6zM23.273 14.727l-2.242 2.242 8.128 3.031-13.158 4.907-13.158-4.907 8.127-3.031-2.242-2.242-8.727 3.273v8l16 6 16-6v-8z"></path></svg>
+                &nbsp; Download CV 
+            </Button>
+            <Button href="/resume" style="font-size: 1rem;"> Check out </Button>
             </div>
         </container>
         </section>
