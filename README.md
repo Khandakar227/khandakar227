@@ -1,6 +1,5 @@
 # ```< Hello World />```, 👋 I'm Khandakar Shakib Al Hasan
 
----
 
 An enthusiastic full stack web developer, with an unquenchable thirst for learning & trying out new techs and tricks.
 
