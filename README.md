@@ -32,6 +32,6 @@ An enthusiastic full stack web developer, with an unquenchable thirst for learni
 
 #### Social Profiles
 <a href="https://www.facebook.com/profile.php?id=100015443855406&viewas=" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
-<a href="https://www.linkedin.com/in/khandakar-shakib-al-hasan-716475207" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+<a href="https://www.linkedin.com/in/shakib-hasan-734494249" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=khandakar227&show_icons=true&show_icons=true&line_height=30")
