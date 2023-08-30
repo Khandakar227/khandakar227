@@ -19,15 +19,21 @@ An enthusiastic full stack web developer, with an unquenchable thirst for learni
 - Currently I'm a student of Chittagong college in Bangladesh.
 - Co-founder of Chittagong College Information and Technology Club (CCITC)
 
-#### Tools I am familiar with
+#### Area of epertise
 
 <div style="display: flex; justify-content: space-evenly;align-items:center;gap:2px">
-<img src="https://img.icons8.com/officexs/30/000000/react.png" alt="React" />
-<img src="https://img.icons8.com/doodle/30/000000/svetle.png" alt="Svelte" />
-<img src="https://img.icons8.com/color/30/000000/vue-js.png" alt="Vue" />
-<img src="https://img.icons8.com/color/30/000000/firebase.png" alt="Firebase" />
-<img src="https://img.icons8.com/ios/30/000000/jquery.png" alt="JQuery" />
-<img src="https://img.icons8.com/color/30/000000/mongodb.png" alt="Mongodb" />
+  <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+  <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+  <img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo"/>
+  <img src="https://img.icons8.com/officexs/30/000000/react.png" alt="React" />
+  <img src="https://img.icons8.com/doodle/30/000000/svetle.png" alt="Svelte" />
+  <img src="https://img.icons8.com/color/30/000000/vue-js.png" alt="Vue" />
+  <img src="https://img.icons8.com/color/30/000000/firebase.png" alt="Firebase" />
+  <img src="https://img.icons8.com/color/30/000000/mongodb.png" alt="Mongodb" />
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/android-os.png" alt="android-os"/>
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/arduino.png" alt="arduino"/>
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/opencv.png" alt="opencv"/>
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/>
 </div>
 
 #### Social Profiles
