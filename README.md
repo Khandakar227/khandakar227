@@ -8,9 +8,9 @@ An enthusiastic full stack web developer, with an unquenchable thirst for learni
 
 ### What I'm doing:
 
-- 📕 Preparing for a university admissions test
+- 📕 Studying for B.Sc degree in Computer Science and Engineering
 - 🔥 Focusing on the backend development
-- 🐍 Intermediate python programming
+- 🐍 Robotics, App development
 - 🌠 Go beyond and push the bounds
 
 #### About me
