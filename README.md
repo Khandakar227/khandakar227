@@ -34,6 +34,8 @@ An enthusiastic full stack web developer, with an unquenchable thirst for learni
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/arduino.png" alt="arduino"/>
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/opencv.png" alt="opencv"/>
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/>
+  <img width="48" height="48" src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="figma"/>
+  <img width="48" height="48" src="https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000" alt="flutter"/>
 </div>
 
 #### Social Profiles
