@@ -24,12 +24,13 @@ An enthusiastic full stack web developer, with an unquenchable thirst for learni
 <div style="display: flex; justify-content: space-evenly;align-items:center;gap:2px">
   <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
   <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
-  <img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo"/>
-  <img src="https://img.icons8.com/officexs/30/000000/react.png" alt="React" />
-  <img src="https://img.icons8.com/doodle/30/000000/svetle.png" alt="Svelte" />
-  <img src="https://img.icons8.com/color/30/000000/vue-js.png" alt="Vue" />
-  <img src="https://img.icons8.com/color/30/000000/firebase.png" alt="Firebase" />
-  <img src="https://img.icons8.com/color/30/000000/mongodb.png" alt="Mongodb" />
+  <img width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo"/>
+  <img width="48" height="48" src="https://img.icons8.com/officexs/30/000000/react.png" alt="React" />
+  <img width="48" height="48" src="https://img.icons8.com/doodle/30/000000/svetle.png" alt="Svelte" />
+  <img width="48" height="48" src="https://img.icons8.com/color/30/000000/vue-js.png" alt="Vue" />
+  <img width="48" height="48" src="https://img.icons8.com/color/30/000000/firebase.png" alt="Firebase" />
+  <img width="48" height="48" src="https://img.icons8.com/color/30/000000/mongodb.png" alt="Mongodb" />
+  <img width="48" height="48" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL"/>
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/android-os.png" alt="android-os"/>
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/arduino.png" alt="arduino"/>
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/opencv.png" alt="opencv"/>
