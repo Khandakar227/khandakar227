@@ -11,14 +11,15 @@ Passionate about building intelligent systems, automating workflows, and develop
 ## What I'm doing:
 
 - 📕 Studying for B.Sc degree in Computer Science and Engineering
-- 🔥 Focusing on the backend development
-- 🐍 Robotics, App development
+- 🔥 Focusing specializing the backend development
+- 🐍 Robotics, App development, Dev Ops
 - 🌠 Go beyond and push the bounds
 
 ### About me
 
 - 📫 Email me at [xenonknight54@gmail.com](mailto:xenonknight54@gnmail.com).
-- Currently I'm a student of Chittagong college in Bangladesh.
+- Currently I'm a student of Islamic University of Technology in Bangladesh.
+- Senior Executive Member of <a href="https://www.altairrover.com/" target="_blank">Project Altair</a> Software Sub team
 - Co-founder of Chittagong College Information and Technology Club (CCITC)
 
 ## 💻Areas of Expertise
