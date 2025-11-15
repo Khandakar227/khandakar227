@@ -19,7 +19,7 @@ Passionate about building intelligent systems, automating workflows, and develop
 
 - 📫 Email me at [xenonknight54@gmail.com](mailto:xenonknight54@gnmail.com).
 - Currently I'm a student of Islamic University of Technology in Bangladesh.
-- Software Subteam Lead of <a href="https://project-altair.vercel.app/" target="_blank">Project Altair</a> Software Sub team
+- Software Subteam Lead of <a href="https://project-altair.vercel.app/" target="_blank">Project Altair</a> IUT Mars Rover Team
 - Co-founder of Chittagong College Information and Technology Club (CCITC)
 
 ## 💻Areas of Expertise
